@@ -54,6 +54,6 @@ public class RectangleTest extends TestCase{
         //        assertEquals(12, Square.get_length());
         rectangle.set_width(5);
         rectangle.compute_area();
-        //        assertEquals(20, Square.get_length());
+        //        assertEquals(30, Square.get_length());
     }
 }
