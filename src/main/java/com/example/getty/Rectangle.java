@@ -17,6 +17,6 @@ public class Rectangle extends quadrilateral {
 
     public void set_width(double w){
         this.width = w;
-        this.color.setColor("purple");
+        this.color.setColor("blue");
     }
 }
