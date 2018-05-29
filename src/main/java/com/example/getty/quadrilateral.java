@@ -16,6 +16,6 @@ public abstract class quadrilateral implements quadrilateral_length, quadrilater
         return width;
     }
     public  double compute_area(){
-        return length * width;
+        return length * width + 1;
     }
 }
