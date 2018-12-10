@@ -15,7 +15,7 @@ public class Color {
     }
 
     public void setColor(String color){
-        this.color = "blue";
+        this.color = "red";
     }
 
 }
