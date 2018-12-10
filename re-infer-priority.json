@@ -1,1 +1,1 @@
-{"priorityList":["com.example.getty.Square:set_length","com.example.getty.Color:setColor","com.example.getty.Color:getColor","com.example.getty.Rectangle:set_width"]}
+{"priorityList":["com.example.getty.Oval:scale_area","com.example.getty.Circle:set_short_radius","com.example.getty.Oval:Oval"]}

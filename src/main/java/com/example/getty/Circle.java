@@ -15,7 +15,7 @@ public class Circle{
         this.short_radius = 0;
     }
 
-    public set_short_radius(double sr) {
+    public void set_short_radius(double sr) {
         if (sr >= 0) {
             this.short_radius = sr;
         }

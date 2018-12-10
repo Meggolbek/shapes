@@ -5,7 +5,7 @@ import java.util.*;
 import junit.framework.TestCase;
 
 public class OvalTest extends TestCase{
-    private Rectangle rectangle;
+    private Oval oval;
 
     protected void setUp() {
         oval = new Oval(5, 7);
@@ -14,19 +14,19 @@ public class OvalTest extends TestCase{
     public void testSetLongRadius() {
         oval.set_long_radius(12.2);
         assertEquals(12.2, oval.get_long_radius());
-        assertEquals(5, oval.get_short_radius())
+        assertEquals(5, oval.get_short_radius());
         oval.get_short_radius();
         oval.get_long_radius();
         oval.set_long_radius(-1);
         assertEquals(12.2, oval.get_long_radius());
-        assertEquals(5, oval.get_short_radius())
+        assertEquals(5, oval.get_short_radius());
         oval.get_short_radius();
         oval.get_long_radius();
     }
 
     public void testCalculateArea() {
         double area = oval.calculate_area();
-        assertEquals(area, 109.9)
+        assertEquals(area, 109.9);
     }
 
     public void testScaleArea() {
@@ -40,7 +40,7 @@ public class OvalTest extends TestCase{
 
     public void testAddToLongRadius () {
         oval.add_to_long_radius(2);
-        assertEquals(9, oval.get_long_radius);
+        assertEquals(9, oval.get_long_radius());
     }
 
 }

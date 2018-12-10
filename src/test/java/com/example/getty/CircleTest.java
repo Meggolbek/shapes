@@ -5,7 +5,7 @@ import java.util.*;
 import junit.framework.TestCase;
 
 public class CircleTest extends TestCase{
-    private Rectangle rectangle;
+    private Circle circle;
 
     protected void setUp() {
         circle = new Circle(5);
@@ -13,7 +13,7 @@ public class CircleTest extends TestCase{
 
     public void testSetShortRadius() {
         circle.set_short_radius(12.2);
-        assertEquals(12.2, ircle.get_short_radius());
+        assertEquals(12.2, circle.get_short_radius());
         circle.get_short_radius();
         circle.set_short_radius(-1);
         assertEquals(12.2, circle.get_short_radius());
@@ -22,7 +22,7 @@ public class CircleTest extends TestCase{
 
     public void testCalculateArea() {
         double area = circle.calculate_area();
-        assertEquals(area, 78.5)
+        assertEquals(area, 78.5);
     }
 
 }
